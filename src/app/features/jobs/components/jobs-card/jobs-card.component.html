@@ -1,0 +1,13 @@
+<main>
+  <div id="card-jobs">
+    <h3>{{ job?.title | uppercase }}</h3>
+    <h4>Aceita: {{ job?.paymentMethods }}</h4>
+    <div id="price-date">
+      <h4>
+        Até {{ job?.dueDate }} por
+        <span>{{ job?.price | currency: "BRL" }}</span>
+      </h4>
+    </div>
+    <button (click)="onClick()">CONTRATAR</button>
+  </div>
+</main>

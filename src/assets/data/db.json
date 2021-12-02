@@ -1,0 +1,42 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "mecanico",
+      "description": "Especialista em Amarok",
+      "price": 2000,
+      "paymentMethods": [
+        "Cartão de crédito",
+        "Pix"
+      ],
+      "dueDate": "30/11/2021"
+    },
+    {
+      "id": 2,
+      "title": "serralheiro",
+      "description": "Especialista em Portões",
+      "price": 4000,
+      "paymentMethods": [
+        "Cartão de crédito",
+        "Pix"
+      ],
+      "dueDate": "30/11/2021"
+    },
+    {
+      "title": "Marceneiro",
+      "description": "especialista em mesas",
+      "price": 4000,
+      "paymentMethods": "Cartão de crédito",
+      "dueDate": "2021-12-24",
+      "id": 3
+    },
+    {
+      "title": "Serralheiro",
+      "description": "Especialista em portões",
+      "price": 1500,
+      "paymentMethods": "Pix",
+      "dueDate": "2022-01-01",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<app-header></app-header>
+<div id="main-container">
+  <div>
+    <img src="../../../../../assets/images/people.jpeg" />
+  </div>
+
+  <div id="form-container">
+    <h1>Cadastro de Usuário</h1>
+    <form #userForm="ngForm" (submit)="onSubmit(userForm)">
+      <div class="form-items">
+        <label>Nome:</label>
+        <input
+          type="text"
+          ngModel
+          placeholder="Digite o nome"
+          name="name"
+          required
+        />
+      </div>
+      <div class="form-items">
+        <label>Email:</label>
+        <input
+          type="email"
+          placeholder="Digite o e-mail"
+          name="email"
+          ngModel
+          required
+        />
+      </div>
+      <div class="form-items">
+        <label class="label-input">Senha:</label>
+        <input
+          type="password"
+          placeholder="Digite a senha"
+          name="password"
+          ngModel
+          required
+        />
+      </div>
+      <div>
+        <button type="submit" [disabled]="userForm.invalid">Salvar</button>
+      </div>
+    </form>
+  </div>
+</div>
+<app-footer></app-footer>

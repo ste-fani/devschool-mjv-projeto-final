@@ -1,0 +1,9 @@
+<main>
+  <div>
+    <h3>{{ title }}</h3>
+  </div>
+  <div id="jobs-list">
+    <app-jobs-card *ngFor="let job of mockJobs$ | async" [job]="job">
+    </app-jobs-card>
+  </div>
+</main>

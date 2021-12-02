@@ -1,0 +1,56 @@
+<app-header></app-header>
+<main>
+  <img src="../../../../../assets/images/mecanico.jpeg" />
+
+  <div id="container-create-job">
+    <h1>Crie seu anúncio</h1>
+    <form id="form-create-job" [formGroup]="form">
+      <div class="form-item">
+        <label>Título</label>
+        <input
+          type="text"
+          formControlName="title"
+          placeholder="Informe o título do seu anúncio"
+        />
+      </div>
+      <div class="form-item">
+        <label>Descrição</label>
+        <input
+          type="text"
+          formControlName="description"
+          placeholder="Informe a descrição do seu anúncio"
+        />
+      </div>
+      <div class="form-item">
+        <label>Preço</label>
+        <input
+          type="number"
+          formControlName="price"
+          placeholder="Informe o preço do seu serviço"
+        />
+      </div>
+      <div class="form-item">
+        <label>Método de pagamento</label>
+        <select formControlName="paymentMethods">
+          <option>Cartão de Débito</option>
+          <option>Cartão de Crédito</option>
+          <option>PayPal</option>
+          <option>Boleto</option>
+          <option>Pix</option>
+        </select>
+      </div>
+      <div class="form-item">
+        <label>Data disponível</label>
+        <input type="date" formControlName="dueDate" />
+      </div>
+      <div id="buttons">
+        <button (click)="onSubmit()" [disabled]="form.invalid">
+          Criar anúncio
+        </button>
+        <button (click)="onCancel()">Cancelar anúncio</button>
+      </div>
+    </form>
+  </div>
+</main>
+
+<app-footer></app-footer>

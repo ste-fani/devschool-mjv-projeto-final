@@ -1,0 +1,15 @@
+<nav>
+  <ul>
+    <li [routerLink]="['/home']" id="nav-brand">GetJobs</li>
+  </ul>
+  <ul>
+    <li (click)="messagePage()">Como Funciona</li>
+    <li [routerLink]="['/login']" *ngIf="!user">Entrar</li>
+    <li [routerLink]="['/signUp']" id="user-sing-up" *ngIf="!user">
+      Seja um Jober
+    </li>
+    <li [routerLink]="['/jobs']" *ngIf="user">Contratar um Jober</li>
+    <li [routerLink]="['/createJob']" *ngIf="user">Criar anúncio</li>
+    <li (click)="exit()" *ngIf="user">Sair</li>
+  </ul>
+</nav>

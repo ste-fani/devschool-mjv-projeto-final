@@ -1,0 +1,25 @@
+<app-header></app-header>
+<div id="home-main-container">
+  <div>
+    <h2 id="home-phrase" *ngIf="user">Olá, {{ user?.name }}!</h2>
+  </div>
+  <div class="home-description-container">
+    <div>
+      <p>
+        O jeito mais eficiente de conectar você aos melhores profissionais do
+        mercado.
+      </p>
+      <div [routerLink]="['/jobs']">
+        <button>Contratar um Jober</button>
+      </div>
+    </div>
+    <div>
+      <img
+        id="img-home"
+        src="../../../../../assets/images/pintor.jpg"
+        alt="Pintor"
+      />
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

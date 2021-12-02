@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+#jobs-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 2rem 4rem 1rem;
+  min-height: 25.8rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: "Roboto";
+  margin-left: 4rem;
+  padding-top: 1rem;
+}
