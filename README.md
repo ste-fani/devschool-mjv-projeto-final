@@ -25,6 +25,11 @@ Em seu terminal
 - Para aproveitamento total da aplicação, será necessário abrir um novo terminal e acessar a pasta `data` localizada em `src/assets/data`
 - Rode o comando `json-server --watch db.json`
 
+### Login
+Usuário de exemplo
+- Email: emile@email.com
+- Senha: emile12
+
 ### Imagens
 
 #### Página Inicial
