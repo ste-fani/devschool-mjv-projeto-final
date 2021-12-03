@@ -1,7 +1,7 @@
 
 # GetJobs
 
-O GetJobs tem o objetivo de simular algumas funcionalidades do site GetNijas.
+O GetJobs tem o objetivo de simular algumas funcionalidades do site GetNinjas.
 
 ### Nele é possível
 - Criar uma conta de usuário
