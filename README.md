@@ -1,27 +1,46 @@
-# ProjetoFinal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+# GetJobs
 
-## Development server
+O GetJobs tem o objetivo de simular lagumas funcionalidades do site GetNijas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Nele é possível
+- Criar uma conta de usuário
+- Logar na conta criada
+- A partir de um usuário válido será possível visualizar a página de serviços disponíveis
+- Criar um anúncio
 
-## Code scaffolding
+### Tecnologias utilizadas
+- Typescript
+- SCCS
+- Angular
+- JSON server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Instalação
 
-## Build
+Em seu terminal
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Clone este repositório com o comando `git clone https://github.com/ste-fani/devschool-mjv-projeto-final.git`
+- Acesse a pasta do projeto e instale as dependências com o comando `npm install`
+- Inicie a visualização do projeto com o comando `ng serve´ e abra a url `http://localhost:4200/` em seu navegador
+- Para aproveitamento total da aplicação, será necessário acessar acessar a pasta `data` localizada em `src/assets/data`
+- Abra um novo terminal e rode o comando `json-server --watch db.json`
 
-## Running unit tests
+### Imagens
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Página Inicial
+<img src="https://user-images.githubusercontent.com/69688122/144542073-99b3c160-3931-45de-9e36-78e9d318712e.png"/>
 
-## Running end-to-end tests
+#### Página de cadastro de usuário
+<img src="https://user-images.githubusercontent.com/69688122/144542078-d918f2e3-87a8-4ef2-8040-f79880cf0de1.png"/>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### Página de Login
+<img src="https://user-images.githubusercontent.com/69688122/144542081-3a7eb469-49c7-49d9-b4b6-1af3efd7786b.png"/>
 
-## Further help
+#### Página inicial para usuário válido
+<img src="https://user-images.githubusercontent.com/69688122/144542074-4b1e4dc2-07a8-4ebb-bc0a-e3769a566d08.png"/>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### Página de serviços disponíveis
+<img src="https://user-images.githubusercontent.com/69688122/144542083-cbbde110-8b71-4d1f-aa81-5b7e788d8fe4.png"/>
+
+#### Página de criar anúncio
+<img src="https://user-images.githubusercontent.com/69688122/144542065-cbeeffa6-7db4-46b7-b199-b23a607421f1.png"/>
