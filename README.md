@@ -10,7 +10,7 @@ O GetJobs tem o objetivo de simular algumas funcionalidades do site GetNinjas.
 - Criar um anúncio
 
 ### Tecnologias utilizadas
-- Typescript
+- TypeScript
 - SCCS
 - Angular
 - JSON server
