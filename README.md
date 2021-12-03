@@ -21,7 +21,7 @@ Em seu terminal
 
 - Clone este repositório com o comando `git clone https://github.com/ste-fani/devschool-mjv-projeto-final.git`
 - Acesse a pasta do projeto e instale as dependências com o comando `npm install`
-- Inicie a visualização do projeto com o comando `ng serve` e abra a url `http://localhost:4200/` em seu navegador
+- Inicie a visualização do projeto com o comando `ng serve` e abra o `http://localhost:4200/` em seu navegador
 - Para aproveitamento total da aplicação, será necessário abrir um novo terminal e acessar a pasta `data` localizada em `src/assets/data`
 - Rode o comando `json-server --watch db.json`
 
